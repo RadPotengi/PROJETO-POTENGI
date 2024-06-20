@@ -68,7 +68,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[-6.433789804406627,-36.89872683266669],[-5.4264125547563165,-34.97020291152576]]);
+        }).fitBounds([[-6.399538940160789,-36.63812598852796],[-5.39322906883857,-34.80727734014716]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -485,7 +485,7 @@
         map.createPane('pane_ClassesDeclividade__6');
         map.getPane('pane_ClassesDeclividade__6').style.zIndex = 406;
         var img_ClassesDeclividade__6 = 'data/ClassesDeclividade__6.png';
-        var img_bounds_ClassesDeclividade__6 = [[-6.19786360986661,-36.41675921513468],[-5.683677134481698,-35.19275680834508]];
+        var img_bounds_ClassesDeclividade__6 = [[-6.196805121014969,-36.4144938639009],[-5.685927934439632,-35.19449177219256]];
         var layer_ClassesDeclividade__6 = new L.imageOverlay(img_ClassesDeclividade__6,
                                               img_bounds_ClassesDeclividade__6,
                                               {pane: 'pane_ClassesDeclividade__6'});
@@ -2402,7 +2402,7 @@
         map.createPane('pane_PerdadeSoloMghaano_16');
         map.getPane('pane_PerdadeSoloMghaano_16').style.zIndex = 416;
         var img_PerdadeSoloMghaano_16 = 'data/PerdadeSoloMghaano_16.png';
-        var img_bounds_PerdadeSoloMghaano_16 = [[-6.196740306800772,-36.41449188475385],[-5.686050057356147,-35.19460165486639]];
+        var img_bounds_PerdadeSoloMghaano_16 = [[-6.196739857664386,-36.4144918845189],[-5.685977815070593,-35.19470967195408]];
         var layer_PerdadeSoloMghaano_16 = new L.imageOverlay(img_PerdadeSoloMghaano_16,
                                               img_bounds_PerdadeSoloMghaano_16,
                                               {pane: 'pane_PerdadeSoloMghaano_16'});
@@ -3004,75 +3004,50 @@
                 case '1':
                     return {
                 pane: 'pane_Vulnerabilidade_23',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(121,221,88,1.0)',
+                fillColor: 'rgba(0,97,0,1.0)',
                 interactive: true,
             }
                     break;
                 case '2':
                     return {
                 pane: 'pane_Vulnerabilidade_23',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(74,169,33,1.0)',
+                fillColor: 'rgba(122,171,0,1.0)',
                 interactive: true,
             }
                     break;
                 case '3':
                     return {
                 pane: 'pane_Vulnerabilidade_23',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(248,193,29,1.0)',
+                fillColor: 'rgba(255,255,0,1.0)',
                 interactive: true,
             }
                     break;
                 case '4':
                     return {
                 pane: 'pane_Vulnerabilidade_23',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(245,79,22,1.0)',
+                fillColor: 'rgba(255,153,0,1.0)',
                 interactive: true,
             }
                     break;
                 case '5':
                     return {
                 pane: 'pane_Vulnerabilidade_23',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(216,5,49,1.0)',
+                fillColor: 'rgba(255,34,0,1.0)',
                 interactive: true,
             }
                     break;
@@ -3130,12 +3105,7 @@
                 case 'Águas Continentais':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(153,194,230,1.0)',
@@ -3145,12 +3115,7 @@
                 case 'Águas Costeiras':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(235,255,255,1.0)',
@@ -3160,12 +3125,7 @@
                 case 'Áreas de Mineração':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(173,137,205,1.0)',
@@ -3175,12 +3135,7 @@
                 case 'Áreas Descobertas':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(178,178,178,1.0)',
@@ -3190,12 +3145,7 @@
                 case 'Áreas Urbanizadas':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,168,192,1.0)',
@@ -3205,12 +3155,7 @@
                 case 'Culturas Permanentes':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,214,0,1.0)',
@@ -3220,12 +3165,7 @@
                 case 'Culturas Temporárias':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,255,0,1.0)',
@@ -3235,12 +3175,7 @@
                 case 'Formação Pioneira com influencia Fluviomarinha':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(0,168,132,1.0)',
@@ -3250,12 +3185,7 @@
                 case 'Pastagem':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(205,137,0,1.0)',
@@ -3265,12 +3195,7 @@
                 case 'Savana-Estépica Arborizada':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(85,255,0,1.0)',
@@ -3280,12 +3205,7 @@
                 case 'Savana-Estépica Florestada':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(76,115,0,1.0)',
@@ -3295,12 +3215,7 @@
                 case 'Savana-Estépica Parque':
                     return {
                 pane: 'pane_Usodosolo_24',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(209,255,115,1.0)',
@@ -4623,12 +4538,10 @@
                 this._div = L.DomUtil.create('div',
                 'leaflet-control abstract');
                 this._div.id = 'abstract'
-                    this._div.setAttribute("onmouseenter", "abstract.show()");
-                    this._div.setAttribute("onmouseleave", "abstract.hide()");
-                    this.hide();
+                    this.show();
                     return this._div;
                 };
-                abstract.hide = function () {
+                abstract.show = function () {
                     this._div.classList.remove("abstractUncollapsed");
                     this._div.classList.add("abstract");
                     this._div.innerHTML = 'i'
@@ -4636,7 +4549,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = 'Para selecionar os atributos da camada que deseja, desabilite todas as outras e deixe apenas a que deseja analisar.<br /><br />Link de download para os geodados (clique três vezes no link abaixo e em seguida copie):<br /><b>https://www.projetopotengiufrn.com.br/produtos</b>';
+                    this._div.innerHTML = 'Para selecionar os atributos da camada que deseja, desabilite todas as outras e deixe apenas a que deseja analisar.<br /><br />Link de download para os geodados (clique três vezes no link abaixo e em seguida copie):<br /><br /><b>https://www.projetopotengiufrn.com.br/produtos</b>';
             };
             abstract.addTo(map);
         var osmGeocoder = new L.Control.Geocoder({
@@ -4665,7 +4578,7 @@
             {label: '<img src="legend/Isoietas_19.png" /> <b>Isoietas</b>', layer: layer_Isoietas_19},
             {label: '<b>Pluviometria Anual (mm)</b><br /><table><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_437mm573mm0.png" /></td><td>437mm - 573 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_573mm656mm1.png" /></td><td>573mm - 656 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_656mm751mm2.png" /></td><td>656mm - 751 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_751mm864mm3.png" /></td><td>751mm - 864 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_864mm1004mm4.png" /></td><td>864mm - 1004 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_1004mm1144mm5.png" /></td><td>1004mm - 1144 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_1144mm1273mm6.png" /></td><td>1144mm - 1273 mm</td></tr><tr><td style="text-align: center;"><img src="legend/PluviometriaAnualmm_18_1273mm1402mm7.png" /></td><td>1273mm - 1402 mm</td></tr></table>', layer: layer_PluviometriaAnualmm_18},
             {label: '<b>Intensidade Pluviométrica (mm/mês)</b><br /><table><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_180mmmes244mmmes0.png" /></td><td>180mm/mes - 244mm/mes</td></tr><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_244mmmes284mmmes1.png" /></td><td>244mm/mes - 284mm/mes</td></tr><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_284mmmes307mmmes2.png" /></td><td>284mm/mes - 307mm/mes</td></tr><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_307mmmes336mmmes3.png" /></td><td>307mm/mes - 336mm/mes</td></tr><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_336mmmes375mmmes4.png" /></td><td>336mm/mes - 375mm/mes</td></tr><tr><td style="text-align: center;"><img src="legend/IntensidadePluviomtricammms_17_375mmmes425mmmes5.png" /></td><td>375mm/mes -425mm/mes</td></tr></table>', layer: layer_IntensidadePluviomtricammms_17},
-            {label: '<b>Perda de Solo (Mg.ha/ano)</b><br /><table><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_0a1Mghaano0.png" /></td><td>0 a 1 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_1a3Mghaano1.png" /></td><td>1 a 3 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_3a5Mghaano2.png" /></td><td>3 a 5 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_5a10Mghaano3.png" /></td><td>5 a 10 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_10a20Mghaano4.png" /></td><td>10 a 20 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_20a50Mghaano5.png" /></td><td>20 a 50 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_50a200Mghaano6.png" /></td><td>50 a 200 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_200Mghaano7.png" /></td><td>>200 Mg.ha/ano</td></tr></table>', layer: layer_PerdadeSoloMghaano_16},
+            {label: '<b>Perda de Solo (Mg.ha/ano)</b><br /><table><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_0a3Mghaano0.png" /></td><td>0 - 3 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_3a10Mghaano1.png" /></td><td>3 - 10 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_10a50Mghaano2.png" /></td><td>10 - 50 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_50a200Mghaano3.png" /></td><td>50 - 200 Mg.ha/ano</td></tr><tr><td style="text-align: center;"><img src="legend/PerdadeSolo_3_200Mghaano4.png" /></td><td>>200 Mg.ha/ano</td></tr></table>', layer: layer_PerdadeSoloMghaano_16},
             {label: '<b>Qualidade de Resíduos_IQR</b><br /><table><tr><td style="text-align: center;"><img src="legend/QualidadedeResduos_IQR_15_2042630.png" /></td><td>2,0 - 4,263</td></tr><tr><td style="text-align: center;"><img src="legend/QualidadedeResduos_IQR_15_426360401.png" /></td><td>4,263 - 6,040</td></tr><tr><td style="text-align: center;"><img src="legend/QualidadedeResduos_IQR_15_604078172.png" /></td><td>6,040 - 7,817</td></tr><tr><td style="text-align: center;"><img src="legend/QualidadedeResduos_IQR_15_781710003.png" /></td><td>7,817 - 10,00</td></tr></table>', layer: layer_QualidadedeResduos_IQR_15},
             {label: '<img src="legend/LixesBHRP_14.png" /> <b>Lixões BHRP</b>', layer: layer_LixesBHRP_14},
             {label: '<img src="legend/TratamentoEsgoto_13.png" /> <b>Tratamento Esgoto</b>', layer: layer_TratamentoEsgoto_13},
@@ -4675,9 +4588,9 @@
             {label: '<b>Altimetria</b><br /><table><tr><td style="text-align: center;"><img src="legend/Altimetria_9_6m75m0.png" /></td><td>-6m - 75m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_75m139m1.png" /></td><td>75m - 139m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_139m211m2.png" /></td><td>139m - 211m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_211m299m3.png" /></td><td>211m - 299m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_299m398m4.png" /></td><td>299m - 398m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_398m512m5.png" /></td><td>398m - 512m</td></tr><tr><td style="text-align: center;"><img src="legend/Altimetria_9_512m718m6.png" /></td><td>512m - 718m</td></tr></table>', layer: layer_Altimetria_9},
             {label: '<b>Geomorfologia</b><br /><table><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_AgradacionaisPlaníciesFluviais0.png" /></td><td>Agradacionais Planícies Fluviais</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_CompartimentoMontedasGameleiras1.png" /></td><td>Compartimento Monte das Gameleiras</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_CompartimentoPotengiTrairi2.png" /></td><td>Compartimento Potengi-Trairi</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_CompartimentoSerradeSantana3.png" /></td><td>Compartimento Serra de Santana</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_DepressãoInterplanálticaOriental4.png" /></td><td>Depressão Interplanáltica Oriental</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_DepressãoIntraplanálticadoTrairi5.png" /></td><td>Depressão Intraplanáltica do Trairi</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_InselbergseCamposdeInselbergs6.png" /></td><td>Inselbergs e Campos de Inselbergs</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_PlaníciesCosteiras7.png" /></td><td>Planícies Costeiras</td></tr><tr><td style="text-align: center;"><img src="legend/Geomorfologia_8_TabuleirosCosteirosDissecados8.png" /></td><td>Tabuleiros Costeiros Dissecados</td></tr></table>', layer: layer_Geomorfologia_8},
             {label: '<b>Geologia</b><br /><table><tr><td style="text-align: center;"><img src="legend/Geologia_7_BasaltoMacau0.png" /></td><td>Basalto Macau</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_BasaltoRioCearáMirim1.png" /></td><td>Basalto Rio Ceará-Mirim</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoCaicó2.png" /></td><td>Complexo Caicó</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoJoãoCâmara3.png" /></td><td>Complexo João Câmara</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoPresidenteJuscelino4.png" /></td><td>Complexo Presidente Juscelino</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoRiachodasTelhas5.png" /></td><td>Complexo Riacho das Telhas</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoSantaCruz6.png" /></td><td>Complexo Santa Cruz</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoSenadorElóideSouza7.png" /></td><td>Complexo Senador Elói de Souza</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_ComplexoSerraCaiada8.png" /></td><td>Complexo Serra Caiada</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitosaluvionares9.png" /></td><td>Depósitos aluvionares</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitosarenososearenoargilosos10.png" /></td><td>Depósitos arenosos e areno-argilosos</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitoscolúvioeluviais11.png" /></td><td>Depósitos colúvio-eluviais</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitoseólicoslitorâneosnãovegetados12.png" /></td><td>Depósitos eólicos litorâneos não vegetados</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitoseólicoslitorâneosvegetados13.png" /></td><td>Depósitos eólicos litorâneos vegetados</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitosflúviomarinhos14.png" /></td><td>Depósitos flúvio-marinhos</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Depósitoslitorâneospraiais15.png" /></td><td>Depósitos litorâneos praiais</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_DepósitosMarinhoseContinentaisAntigos16.png" /></td><td>Depósitos Marinhos e Continentais Antigos</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Diquedequartzo17.png" /></td><td>Dique de quartzo</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Diquesdepegmatito18.png" /></td><td>Diques de pegmatito</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_FormaçãoEquador19.png" /></td><td>Formação Equador</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_FormaçãoJandaíra20.png" /></td><td>Formação Jandaíra</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_FormaçãoJucurutu21.png" /></td><td>Formação Jucurutu</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_FormaçãoSerradosMartins22.png" /></td><td>Formação Serra dos Martins</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_GnaisseTeixeira23.png" /></td><td>Gnaisse Teixeira</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_GranitóideSãoJosédoCampestre24.png" /></td><td>Granitóide São José do Campestre</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_Granitóidesindiscriminadosbrasilianos25.png" /></td><td>Granitóides indiscriminados brasilianos</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_GrupoBarreiras26.png" /></td><td>Grupo Barreiras</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_GrupoSeridó27.png" /></td><td>Grupo Seridó</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_MetatonalitoBomJesus28.png" /></td><td>Metatonalito Bom Jesus</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_SedimentosAluvionares29.png" /></td><td>Sedimentos Aluvionares</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_SuíteInharé30.png" /></td><td>Suíte Inharé</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_SuíteIntrusivaDonaInês31.png" /></td><td>Suíte Intrusiva Dona Inês</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_SuíteIntrusivaItaporanga32.png" /></td><td>Suíte Intrusiva Itaporanga</td></tr><tr><td style="text-align: center;"><img src="legend/Geologia_7_SuíteIntrusivaSãoJoãodoSabugi33.png" /></td><td>Suíte Intrusiva São João do Sabugi</td></tr></table>', layer: layer_Geologia_7},
-            {label: '<b>Classes Declividade_%</b><br /><table><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_0a3RelevoPlano0.png" /></td><td>0 a 3% - Relevo Plano</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_38SuaveOndulado1.png" /></td><td>3 - 8% - Suave Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_820Ondulado2.png" /></td><td>8 - 20% - Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_2045ForteOndulado3.png" /></td><td>20 - 45 - Forte Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_4575Montanhoso4.png" /></td><td>45 - 75% - Montanhoso</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_75Escarpado5.png" /></td><td>>75% - Escarpado</td></tr></table>', layer: layer_ClassesDeclividade__6},
+            {label: '<b>Classes Declividade_%</b><br /><table><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_0a3RelevoPlano0.png" /></td><td>0 a 3% - Relevo Plano</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_38SuaveOndulado1.png" /></td><td>3 - 8% - Suave Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_820Ondulado2.png" /></td><td>8 - 20% - Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_2045ForteOndulado3.png" /></td><td>20 - 45% - Forte Ondulado</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_4575Montanhoso4.png" /></td><td>45 - 75% - Montanhoso</td></tr><tr><td style="text-align: center;"><img src="legend/ClassesDeclividade_4_75Escarpado5.png" /></td><td>>75% - Escarpado</td></tr></table>', layer: layer_ClassesDeclividade__6},
             {label: '<img src="legend/APPRiosMassasdguaenascentes_5.png" /> <b>APP Rios, Massas d\'água e nascentes</b>', layer: layer_APPRiosMassasdguaenascentes_5},
-            {label: '<b>APP de Rios</b><br /><table><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_APP100.png" /></td><td>APP <10</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_APP10501.png" /></td><td>APP 10-50</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_APP6002.png" /></td><td>APP >600</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_APP502003.png" /></td><td>APP 50-200</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_APP2006004.png" /></td><td>APP 200-600</td></tr></table>', layer: layer_APPdeRios_4},
+            {label: '<b>APP de Rios</b><br /><table><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_Riosdelargura10m0.png" /></td><td>Rios de largura <10m</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_Riosdelarguraentre10e50m1.png" /></td><td>Rios de largura entre 10 e 50m</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_Riosdelargura600m2.png" /></td><td>Rios de largura >600m</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_Riosdelarguraentre50e200m3.png" /></td><td>Rios de largura entre 50 e 200m</td></tr><tr><td style="text-align: center;"><img src="legend/APPdeRios_4_Riosdelarguraentre200e600m4.png" /></td><td>Rios de largura entre 200 e 600m</td></tr></table>', layer: layer_APPdeRios_4},
             {label: '<b>Aquíferos BHRP</b><br /><table><tr><td style="text-align: center;"><img src="legend/AquferosBHRP_3_Aluviões0.png" /></td><td>Aluviões</td></tr><tr><td style="text-align: center;"><img src="legend/AquferosBHRP_3_Cristalino1.png" /></td><td>Cristalino</td></tr><tr><td style="text-align: center;"><img src="legend/AquferosBHRP_3_FormaçãoBarreiras2.png" /></td><td>Formação Barreiras</td></tr></table>', layer: layer_AquferosBHRP_3},
             {label: '<img src="legend/APPDeclividade_2.png" /> <b>APP Declividade</b>', layer: layer_APPDeclividade_2},
             {label: "<b>OSM Standard</b>", layer: layer_OSMStandard_1},
